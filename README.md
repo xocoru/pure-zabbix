@@ -1,3 +1,9 @@
-# Monitoring Tools Integrations
+# Pure Storage FlashArray Zabbix 6.x Template 
 
-A repository of plugins and extensions to monitor Pure Storage FlashArrays and FlashBlades using some of the most popular monitoring tools: Prometheus, Nagios and Zabbix.
+A repository of Zabbix template to monitor Pure Storage FlashArrays using OM Exporter (https://github.com/PureStorage-OpenConnect/pure-fa-openmetrics-exporter)
+
+## Installation
+
+* Import the template to Zabbix
+* Add PureStorage FlashArray as a host and attach the template
+* Override macros {$EXPORTER}, {$API_TOKEN} on host level
